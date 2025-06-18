@@ -13,7 +13,7 @@ export default function CommonComponents() {
       {" "}
       <Demomodal />
       <Chat />
-      <DemoToggler /> <ScrollTop />
+      {/* <DemoToggler />  */} <ScrollTop />
       <Sidebar />
       <MobileMenu />
       <MobileMenuOnepage />
