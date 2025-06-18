@@ -27,16 +27,15 @@ export default function Hero() {
                   Hello
                 </span>
                 <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2 mt--5">
-                  i’m Jane Cooper a <br />
+                  i’m Awais Rafique a <br />
                   <span className="header-caption">
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
-                          "Web Designer.",
+                          "/an ML Engineer.",
                           "Web Developer.",
-                          "UI/UX Designer.",
+                          "Flutter App Developer.",
                           "Freelancer.",
-                          "Content Writer.",
                         ]}
                       />
                     </span>
