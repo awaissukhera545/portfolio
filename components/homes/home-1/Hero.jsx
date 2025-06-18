@@ -32,7 +32,7 @@ export default function Hero() {
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
-                          "/an ML Engineer.",
+                          "ML Engineer.",
                           "Web Developer.",
                           "Flutter App Developer.",
                           "Freelancer.",
