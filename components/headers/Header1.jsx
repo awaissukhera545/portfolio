@@ -19,14 +19,14 @@ export default function Header1({
                 <Link href={`/`}>
                   <Image
                     className="logo-dark"
-                    alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                    alt="MARS"
                     src={darkLogo}
                     width={121}
                     height={41}
                   />
                   <Image
                     className="logo-white"
-                    alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                    alt="MARS Logo"
                     src={lightLogo}
                     width={121}
                     height={40}
