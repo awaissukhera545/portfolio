@@ -17,8 +17,8 @@ export default function Hero() {
                   width={486}
                   height={781}
                 />
-                <h2 className="banner-big-text-1 up-down">WEB DESIGNER</h2>
-                <h2 className="banner-big-text-2 up-down-2">WEB DESIGNER</h2>
+                <h2 className="banner-big-text-1 up-down">ML Engineer</h2>
+                <h2 className="banner-big-text-2 up-down-2">ML Engineer</h2>
               </div>
             </div>
             <div className="col-lg-6 order-lg-1">
