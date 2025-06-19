@@ -25,14 +25,14 @@ export default function Footer3({
                     <Link href={`/`}>
                       <Image
                         className="logo-dark"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="MARS Developers"
                         src={darkLogo}
                         width={121}
                         height={41}
                       />
                       <Image
                         className="logo-white"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="MARS Developers"
                         src={lightLogo}
                         width={121}
                         height={40}
@@ -80,19 +80,19 @@ export default function Footer3({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">nafiz125@gmail.com</a>
+                      <a href="#">mawaisrafiquesukhera@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      3891 Ranchview Dr. Richardson
+                      Currently Working Remotely
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">01245789321</a>
+                      <a href="#">+92 3266699494</a>
                     </li>
                   </ul>
                   <div className="social-link footer">
