@@ -1,5 +1,4 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Blogs from "@/components/common/Blogs";
 import Brands from "@/components/common/Brands";
@@ -14,10 +13,8 @@ import Skills from "@/components/common/Skills";
 import Skills2 from "@/components/common/Skills2";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import CommonComponents from "@/components/common/CommonComponents";
-import Footer2 from "@/components/footers/Footer2";
 import Footer3 from "@/components/footers/Footer3";
-import Footer4 from "@/components/footers/Footer4";
-import Footer5 from "@/components/footers/Footer5";
+
 
 export const metadata = {
   title:
@@ -41,11 +38,7 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Blogs />
-      <Footer1 />
-      <Footer2 />
       <Footer3 />
-      <Footer4 />
-      <Footer5 />
       <Copyright />
       <CommonComponents />
     </>
