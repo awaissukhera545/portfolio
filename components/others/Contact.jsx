@@ -11,17 +11,17 @@ export default function Contact() {
     emailjs
       .sendForm(
         // EmailJS service ID - identifies which email service to use
-        "service_cyobi0y",
+        "service_06ey5mj",
 
         // EmailJS template ID - specifies which email template to use
-        "template_4nbexqj",
+        "template_mv6dj0e",
 
         // Reference to the HTML form element containing user input
         form.current,
 
         {
           // Public API key for authentication with EmailJS
-          publicKey: "D79JdTqxXVCcQBXL4",
+          publicKey: "kBPnvGJ-g3f0Um3bd",
         }
       )
       .then((res) => {
@@ -58,8 +58,8 @@ export default function Contact() {
                   <i className="fa-solid fa-location-dot" />
                 </div>
                 <h3 className="title">Address</h3>
-                <p className="para">Dhaka 102, utl 1216, road 45</p>
-                <p className="para">house of street</p>
+                <p className="para">Currently Working Remotely</p>
+                <p className="para">.....</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -68,11 +68,11 @@ export default function Contact() {
                   <i className="fa-solid fa-envelope" />
                 </div>
                 <h3 className="title">E-mail</h3>
-                <a href="mailto:themespark11@gmail.com">
-                  <p className="para">hasan@yourmail.com</p>
+                <a href="mailto:mawaisrafiquesukhera@gmail.com">
+                  <p className="para">mawaisrafiquesukhera@gmail.com</p>
                 </a>
-                <a href="mailto:themespark11@gmail.com">
-                  <p className="para">themespark11@gmail.com</p>
+                <a href="mailto:marsdevelopers03@gmail.com">
+                  <p className="para">marsdevelopers03@gmail.com</p>
                 </a>
               </div>
             </div>
@@ -82,8 +82,8 @@ export default function Contact() {
                   <i className="fa-solid fa-phone" />
                 </div>
                 <h3 className="title">Call Me</h3>
-                <p className="para">0000 - 000 - 000 00</p>
-                <p className="para">+1234 - 000</p>
+                <p className="para">+92 3266699494</p>
+                <p className="para">+92 3080910986</p>
               </div>
             </div>
           </div>
@@ -104,9 +104,7 @@ export default function Contact() {
                       Elevate your brand with Me
                     </h2>
                     <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                      ished fact that a reader will be distrol acted bioiiy
-                      desig ished fact that a reader will acted ished fact that
-                      a reader will be distrol acted
+                      This is just a dummy text i will update later.
                     </p>
                   </div>
                 </div>
