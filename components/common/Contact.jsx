@@ -66,7 +66,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">E-mail:</h4>
-                      <a href="#">nafiz125@gmail.com</a>
+                      <a href="#">mawaisrafiquesukhera@gmail.com</a>
                     </div>
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
@@ -75,7 +75,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Location:</h4>
-                      <div>3891 Ranchview Dr. Richardson</div>
+                      <div>Currently Working Remotely</div>
                     </div>
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
@@ -84,7 +84,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Contact:</h4>
-                      <a href="#">01245789321</a>
+                      <a href="#">+92 3266699494</a>
                     </div>
                   </li>
                 </ul>
