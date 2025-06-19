@@ -80,7 +80,7 @@ export default function Footer3({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">mawaisrafiquesukhera@gmail.com</a>
+                      <a href="mailto:mawaisrafiquesukhera@gmail.com">mawaisrafiquesukhera@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
@@ -92,20 +92,20 @@ export default function Footer3({
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">+92 3266699494</a>
+                      <a href="tel:+923266699494">+92 3266699494</a>
                     </li>
                   </ul>
                   <div className="social-link footer">
-                    <a href="#">
+                    <a href="https://www.instagram.com/awaissukhera545">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/awaissukhera545/">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
                     <a href="#">
                       <i className="fa-brands fa-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/people/Muhammad-Awais-Rafique/100093275199461">
                       <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>
