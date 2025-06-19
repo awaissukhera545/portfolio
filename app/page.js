@@ -20,7 +20,7 @@ export const metadata = {
   title:
     "MARS Developers",
   description:
-    "Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.",
+    "This is my personal portfolio and solely created website MARS Developers.",
 };
 export default function Home() {
   return (
