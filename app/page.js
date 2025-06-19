@@ -14,12 +14,16 @@ import Skills from "@/components/common/Skills";
 import Skills2 from "@/components/common/Skills2";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import CommonComponents from "@/components/common/CommonComponents";
+import Footer2 from "@/components/footers/Footer2";
+import Footer3 from "@/components/footers/Footer3";
+import Footer4 from "@/components/footers/Footer4";
+import Footer5 from "@/components/footers/Footer5";
 
 export const metadata = {
   title:
-    "MARS Developers",
+    "Home 01 || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
   description:
-    "This is my portfolio and site MARS Developers solely made by myself.",
+    "Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.",
 };
 export default function Home() {
   return (
@@ -38,6 +42,10 @@ export default function Home() {
       <Contact />
       <Blogs />
       <Footer1 />
+      <Footer2 />
+      <Footer3 />
+      <Footer4 />
+      <Footer5 />
       <Copyright />
       <CommonComponents />
     </>
