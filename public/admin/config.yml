@@ -1,0 +1,119 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: public/assets/images/uploads
+public_folder: /assets/images/uploads
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "data/cms/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
+      - { label: "Live URL", name: "liveUrl", widget: "string", required: false }
+      - { label: "GitHub URL", name: "githubUrl", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["published", "draft"]
+        default: "published"
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "data/cms/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Awais Rafique" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["published", "draft"]
+        default: "published"
+
+  - name: "services"
+    label: "Services"
+    folder: "data/cms/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Service Name", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Icon", name: "icon", widget: "string", required: false }
+      - { label: "Project Count", name: "count", widget: "number" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "data/cms/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Client Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Review", name: "review", widget: "text" }
+      - { label: "Photo", name: "photo", widget: "image", required: false }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Hero Section"
+        name: "hero"
+        file: "data/cms/settings/hero.json"
+        fields:
+          - { label: "Greeting", name: "greeting", widget: "string", default: "Hello" }
+          - { label: "Your Name", name: "name", widget: "string" }
+          - { label: "Rotating Titles", name: "titles", widget: "list" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "CTA Button Text", name: "ctaText", widget: "string" }
+          - { label: "CTA Button Link", name: "ctaLink", widget: "string" }
+
+      - label: "About Me"
+        name: "about"
+        file: "data/cms/settings/about.json"
+        fields:
+          - { label: "Full Name", name: "name", widget: "string" }
+          - { label: "Job Title", name: "title", widget: "string" }
+          - { label: "Short Bio", name: "shortBio", widget: "text" }
+          - { label: "Long Bio", name: "longBio", widget: "markdown" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+
+      - label: "Skills"
+        name: "skills"
+        file: "data/cms/settings/skills.json"
+        fields:
+          - label: "Design Skills"
+            name: "design"
+            widget: "list"
+            fields:
+              - { label: "Skill Name", name: "name", widget: "string" }
+              - { label: "Percentage", name: "percent", widget: "number", min: 0, max: 100 }
+          - label: "Development Skills"
+            name: "development"
+            widget: "list"
+            fields:
+              - { label: "Skill Name", name: "name", widget: "string" }
+              - { label: "Percentage", name: "percent", widget: "number", min: 0, max: 100 }
+
+      - label: "Contact Info"
+        name: "contact"
+        file: "data/cms/settings/contact.json"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - { label: "GitHub", name: "github", widget: "string" }
+          - { label: "Facebook", name: "facebook", widget: "string" }
