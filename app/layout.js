@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
