@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import Projects from "@/components/projects/Projects";
 import Link from "next/link";
 import React from "react";
@@ -16,7 +16,7 @@ export default function page() {
     <>
       <div className="tmp-white-version">
         <div className="project inner">
-          <Header1 />
+          <Header />
           <div className="breadcrumb-area breadcrumb-bg">
             <div className="container">
               <div className="row">
@@ -38,7 +38,7 @@ export default function page() {
             </div>
           </div>
           <Projects isLight />
-          <Footer3 />
+          <Footer />
           <Copyright /> <CommonComponents />
         </div>
       </div>

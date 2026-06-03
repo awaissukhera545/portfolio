@@ -1,25 +1,26 @@
 import "../public/assets/scss/main.scss";
-import "odometer/themes/odometer-theme-default.css"; // Import theme
+import "odometer/themes/odometer-theme-default.css"; 
 import "react-toastify/dist/ReactToastify.css";
 import LayoutWrapper from "@/components/common/LayoutWrapper";
 import Script from 'next/script';
 import { ToastContainer } from "react-toastify";
+
+import Preloader from "@/components/common/Preloader";
+
 export const metadata = {
-  title:
-    "Home || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
-  description:
-    "Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.",
+  title: "Home || Personal Portfolio Software Engineer",
+  description: "Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.",
 };
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin=""
+          crossOrigin="anonymous"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
@@ -31,15 +32,18 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body>
-          <Script
+      <body suppressHydrationWarning>
+        <Preloader />
+        
+        {/* Smooth scroll script adjusted to load without breaking hydration */}
+        <Script
           src="/assets/js/smooth.js"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         />
+
         <LayoutWrapper>
           <ToastContainer
             position="top-right"
-            // autoClose={2000}
             hideProgressBar={false}
             newestOnTop={false}
             closeOnClick

@@ -17,8 +17,18 @@ export default function Hero() {
                   width={486}
                   height={781}
                 />
-                <h2 className="banner-big-text-1 up-down">ML Engineer</h2>
-                <h2 className="banner-big-text-2 up-down-2">ML Engineer</h2>
+                <h2
+                  className="banner-big-text-1 up-down"
+                  style={{ fontSize: "clamp(2.5rem, 6vw, 5.5rem)" }}
+                >
+                  Software Engineer
+                </h2>
+                <h2
+                  className="banner-big-text-2 up-down-2"
+                  style={{ fontSize: "clamp(2.5rem, 6vw, 5.5rem)" }}
+                >
+                  Software Engineer
+                </h2>
               </div>
             </div>
             <div className="col-lg-6 order-lg-1">
@@ -32,7 +42,7 @@ export default function Hero() {
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
-                          "ML Engineer.",
+                          "Software Engineer.",
                           "Web Developer.",
                           "Flutter App Developer.",
                           "Freelancer.",
@@ -42,9 +52,10 @@ export default function Hero() {
                   </span>
                 </h1>
                 <p className="disc tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  A personal portfolio is a collection of your work,
-                  achievements, and skills that highlights your abilities and
-                  professional growth. It serves as
+                  A passionate Software Engineer dedicated to building Web
+                  applications, robust web platforms, and seamless mobile
+                  experiences. I transform complex problems into elegant,
+                  scalable solutions.
                 </p>
                 <div className="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4">
                   <Link

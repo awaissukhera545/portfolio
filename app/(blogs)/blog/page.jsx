@@ -1,7 +1,7 @@
 import Blogs from "@/components/blog/Blogs";
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import FooterAlt from "@/components/footers/FooterAlt";
+import Header from "@/components/headers/Header";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -14,7 +14,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header1 />
+      <Header />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
@@ -36,7 +36,7 @@ export default function page() {
         </div>
       </div>
       <Blogs />
-      <Footer1 />
+      <FooterAlt />
       <Copyright /> <CommonComponents />
     </>
   );

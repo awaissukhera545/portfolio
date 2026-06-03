@@ -1,7 +1,7 @@
 import Blogs from "@/components/blog/Blogs";
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import FooterAlt from "@/components/footers/FooterAlt";
+import Header from "@/components/headers/Header";
 import { allBlogs } from "@/data/blogs";
 import { slugify } from "@/utlis/slugify";
 import Link from "next/link";
@@ -27,7 +27,7 @@ export default async function TagPage({ params }) {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -55,7 +55,7 @@ export default async function TagPage({ params }) {
           </div>
         </div>
         <Blogs allBlogs={blogs} isLight />
-        <Footer1 />
+        <FooterAlt />
         <Copyright /> <CommonComponents />
       </div>
     </>

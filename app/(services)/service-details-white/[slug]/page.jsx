@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import ServiceDetails from "@/components/services/ServiceDetails";
 import { allServices } from "@/data/services";
 import Link from "next/link";
@@ -19,7 +19,7 @@ export default async function page({ params }) {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -44,7 +44,7 @@ export default async function page({ params }) {
           </div>
         </div>
         <ServiceDetails serviceItem={serviceItem} />
-        <Footer3 />
+        <Footer />
         <Copyright /> <CommonComponents />
       </div>
     </>

@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import ProjectDetails from "@/components/projects/ProjectDetails";
 import { allPortfolioItems } from "@/data/portfolio";
 import Link from "next/link";
@@ -18,7 +18,7 @@ export default async function page({ params }) {
     allPortfolioItems.find((blog) => blog.slug == slug) || allPortfolioItems[0];
   return (
     <>
-      <Header1 />
+      <Header />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
@@ -42,7 +42,7 @@ export default async function page({ params }) {
         </div>
       </div>
       <ProjectDetails portfolioItem={portfolioItem} />
-      <Footer3 />
+      <Footer />
       <Copyright /> <CommonComponents />
     </>
   );

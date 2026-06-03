@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import Contact from "@/components/others/Contact";
 import Link from "next/link";
 import React from "react";
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -37,7 +37,7 @@ export default function page() {
           </div>
         </div>
         <Contact />
-        <Footer3 />
+        <Footer />
         <Copyright /> <CommonComponents />
       </div>
     </>

@@ -1,7 +1,7 @@
 import BlogDetails from "@/components/blog/BlogDetails";
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import { allBlogs } from "@/data/blogs";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +17,7 @@ export default async function page({ params }) {
   const blog = allBlogs.find((blog) => blog.slug == slug) || allBlogs[0];
   return (
     <>
-      <Header1 />
+      <Header />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
@@ -40,7 +40,7 @@ export default async function page({ params }) {
         </div>
       </div>
       <BlogDetails blog={blog} />
-      <Footer3 />
+      <Footer />
       <Copyright /> <CommonComponents />
     </>
   );

@@ -1,11 +1,11 @@
-import Contact from "@/components/common/Contact2";
+import Contact from "@/components/common/Contact";
 import Education from "@/components/common/Education";
 import Facts from "@/components/common/Facts";
 import Pricing from "@/components/common/Pricing";
 import Services from "@/components/common/Services";
 import Skills from "@/components/common/Skills";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import FooterAlt from "@/components/footers/FooterAlt";
+import Header from "@/components/headers/Header";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -19,7 +19,7 @@ export default function page() {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -46,7 +46,7 @@ export default function page() {
         <Education />
         <Pricing />
         <Contact parentClass="get-in-touch-area tmp-section-gapBottom tmp-section-gapTop" />
-        <Footer1 /> <CommonComponents />
+        <FooterAlt /> <CommonComponents />
       </div>
     </>
   );

@@ -1,19 +1,19 @@
 import Copyright from "@/components/footers/Copyright";
-import Header1 from "@/components/headers/Header1";
+import Header from "@/components/headers/Header";
 import Blogs from "@/components/common/Blogs";
 import Brands from "@/components/common/Brands";
-import Contact from "@/components/common/Contact2";
-import Education from "@/components/common/Education2";
+import Contact from "@/components/common/Contact";
+import EducationAlt from "@/components/common/EducationAlt";
 import Facts from "@/components/common/Facts";
 import Hero from "@/components/homes/home-1/Hero";
-import Portfolio from "@/components/common/Portfolio2";
+import Portfolio from "@/components/common/Portfolio";
 import Services from "@/components/common/Services";
-import Services2 from "@/components/common/Services3";
+import ExtraServices from "@/components/common/ExtraServices";
 import Skills from "@/components/common/Skills";
-import Skills2 from "@/components/common/Skills2";
+import ExtraSkills from "@/components/common/ExtraSkills";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import CommonComponents from "@/components/common/CommonComponents";
-import Footer3 from "@/components/footers/Footer3";
+import Footer from "@/components/footers/Footer";
 
 
 export const metadata = {
@@ -25,20 +25,20 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Header1 />
+      <Header />
       <Hero />
       <Services />
       <Facts />
       <Skills />
-      <Services2 />
-      <Education />
+      <ExtraServices />
+      <EducationAlt />
       <Brands />
       <Portfolio />
-      <Skills2 />
+      <ExtraSkills />
       <Testimonials />
       <Contact />
       <Blogs />
-      <Footer3 />
+      <Footer />
       <Copyright />
       <CommonComponents />
     </>

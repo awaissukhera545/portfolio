@@ -1,7 +1,7 @@
 import BlogDetails from "@/components/blog/BlogDetails";
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+import Header from "@/components/headers/Header";
 import { allBlogs } from "@/data/blogs";
 import Link from "next/link";
 import React from "react";
@@ -18,7 +18,7 @@ export default async function page({ params }) {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -41,7 +41,7 @@ export default async function page({ params }) {
           </div>
         </div>
         <BlogDetails isLight blog={blog} />
-        <Footer3 />
+        <Footer />
         <Copyright /> <CommonComponents />
       </div>
     </>

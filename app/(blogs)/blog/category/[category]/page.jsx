@@ -1,7 +1,7 @@
 import Blogs from "@/components/blog/Blogs";
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import FooterAlt from "@/components/footers/FooterAlt";
+import Header from "@/components/headers/Header";
 import { allBlogs } from "@/data/blogs";
 import { slugify } from "@/utlis/slugify";
 import Link from "next/link";
@@ -26,7 +26,7 @@ export default async function CategoryPage({ params }) {
   });
   return (
     <>
-      <Header1 />
+      <Header />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
@@ -54,7 +54,7 @@ export default async function CategoryPage({ params }) {
         </div>
       </div>
       <Blogs allBlogs={blogs} />
-      <Footer1 />
+      <FooterAlt />
       <Copyright /> <CommonComponents />
     </>
   );
