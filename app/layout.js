@@ -8,8 +8,8 @@ import { ToastContainer } from "react-toastify";
 import Preloader from "@/components/common/Preloader";
 
 export const metadata = {
-  title: "Home || Personal Portfolio Software Engineer",
-  description: "Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.",
+  title: "Personal Portfolio Software Engineer",
+  description: "A passionate Software Engineer dedicated to building Web Applications and seamless mobile experiences.",
 };
 
 export default function RootLayout({ children }) {
