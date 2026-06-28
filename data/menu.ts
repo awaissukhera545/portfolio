@@ -7,7 +7,7 @@ export const menuItems = [
     hasDropdown: true,
     submenu: [
       { label: "Service", href: "/service" },
-      { label: "Service Details", href: "/service-details/success-architects" },
+      { label: "Service Details", href: "/service-details/saas-product-development" },
     ],
   },
   {
@@ -18,7 +18,7 @@ export const menuItems = [
       { label: "Blog Classic", href: "/blog" },
       {
         label: "Blog Details",
-        href: "/blog-details/lets-bring-your-ideas-to-life-contact-me-and-lets",
+        href: "/blog-details/from-idea-to-launch-our-product-process",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const menuItems = [
       { label: "Project", href: "/project" },
       {
         label: "Project Details",
-        href: "/project-details/my-portfolio-of-innovation",
+        href: "/project-details/taskflow-saas-productivity-platform",
       },
     ],
   },
@@ -47,7 +47,7 @@ export const menuItemsLight = [
       { label: "Service", href: "/service-white" },
       {
         label: "Service Details",
-        href: "/service-details-white/success-architects",
+        href: "/service-details-white/saas-product-development",
       },
     ],
   },
@@ -59,7 +59,7 @@ export const menuItemsLight = [
       { label: "Blog Classic", href: "/blog-white" },
       {
         label: "Blog Details",
-        href: "/blog-details-white/lets-bring-your-ideas-to-life-contact-me-and-lets",
+        href: "/blog-details-white/from-idea-to-launch-our-product-process",
       },
     ],
   },
@@ -71,7 +71,7 @@ export const menuItemsLight = [
       { label: "Project", href: "/project-white" },
       {
         label: "Project Details",
-        href: "/project-details-white/my-portfolio-of-innovation",
+        href: "/project-details-white/taskflow-saas-productivity-platform",
       },
     ],
   },

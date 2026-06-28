@@ -12,7 +12,7 @@ export default function Facts() {
               <div className="year-expariance-wrap">
                 {/* <h2 class="year-number"><span class="counter">25 </span> </h2> */}
                 <h2 className="counter year-number">
-                  <OdometerComponent max={25} />
+                  <OdometerComponent max={3} />+
                 </h2>
                 <h3 className="year-title">
                   Years Of <br />
@@ -20,8 +20,8 @@ export default function Facts() {
                 </h3>
               </div>
               <p className="year-para">
-                Business consulting consultants provide expert advice and guida
-                the a businesses to help theme their performance efficiency
+                Since 2022, Mars Developers has helped startups and founders
+                design, build and ship AI-powered SaaS products that scale.
               </p>
             </div>
           </div>

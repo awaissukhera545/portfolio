@@ -40,7 +40,7 @@ export default function Footer({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To <br /> Create Great
+                    <span>Let's Build</span> Your <br /> Next Product
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -80,13 +80,13 @@ export default function Footer({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="mailto:mawaisrafiquesukhera@gmail.com">mawaisrafiquesukhera@gmail.com</a>
+                      <a href="mailto:marsdevelopers03@gmail.com">marsdevelopers03@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      Currently Working Remotely
+                      Lahore, Pakistan (Remote)
                     </li>
                     <li>
                       <span className="ft-icon">

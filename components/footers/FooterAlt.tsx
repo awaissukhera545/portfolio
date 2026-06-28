@@ -25,14 +25,14 @@ export default function FooterAlt({
                     <Link href={`/`}>
                       <Image
                         className="logo-dark"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Mars Developers"
                         src={darkLogo}
                         width={121}
                         height={41}
                       />
                       <Image
                         className="logo-white"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Mars Developers"
                         src={lightLogo}
                         width={121}
                         height={40}
@@ -40,7 +40,7 @@ export default function FooterAlt({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To Create Great
+                    <span>Let's Build</span> Your Next Product
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -80,32 +80,32 @@ export default function FooterAlt({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">example@gmail.com</a>
+                      <a href="mailto:marsdevelopers03@gmail.com">marsdevelopers03@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      3891 Ranchview Dr. Richardson
+                      Lahore, Pakistan (Remote)
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">01245789321</a>
+                      <a href="tel:+923266699494">+92 326 669 9494</a>
                     </li>
                   </ul>
                   <div className="social-link footer">
-                    <a href="#">
+                    <a href="https://www.instagram.com/awaissukhera545">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/awaissukhera545/">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
                     <a href="#">
                       <i className="fa-brands fa-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/people/Muhammad-Awais-Rafique/100093275199461">
                       <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>

@@ -4,29 +4,29 @@ export const services = [
   {
     id: 1,
     icon: "fa-light fa-code",
-    title: "Web Development",
-    projects: "40+ Projects",
+    title: "SaaS Product Development",
+    projects: "20+ Products",
     animationOrder: "1",
   },
   {
     id: 2,
     icon: "fa-light fa-mobile-screen",
-    title: "Mobile App Development",
-    projects: "15+ Apps",
+    title: "AI Integration",
+    projects: "15+ Integrations",
     animationOrder: "2",
   },
   {
     id: 3,
     icon: "fa-light fa-cloud",
-    title: "Backend & API",
-    projects: "30+ APIs",
+    title: "MVP Development",
+    projects: "18+ MVPs",
     animationOrder: "3",
   },
   {
     id: 4,
     icon: "fa-light fa-lightbulb",
-    title: "Technical Consulting",
-    projects: "50+ Advisories",
+    title: "Web & API Engineering",
+    projects: "30+ Builds",
     animationOrder: "4",
   },
 ].map((elm) => {
@@ -40,9 +40,9 @@ export const services2 = [
   {
     id: 1,
     num: "01.",
-    title: "Custom Web Applications",
+    title: "SaaS Product Development",
     description:
-      "Building performant, accessible web applications with React and Next.js, optimized for real-world usage and scale.",
+      "End-to-end SaaS builds: multi-tenant architecture, billing, authentication and dashboards on Next.js and PostgreSQL.",
     animationOrder: "1",
     isLink: true,
     column: 1,
@@ -50,9 +50,9 @@ export const services2 = [
   {
     id: 2,
     num: "02.",
-    title: "Cross-platform Mobile Apps",
+    title: "AI Integration",
     description:
-      "Designing and developing Flutter apps with clean architecture and native-quality performance.",
+      "Embed LLMs, chatbots, RAG search and AI workflows into your product using OpenAI and Claude APIs.",
     animationOrder: "2",
     isLink: true,
     column: 1,
@@ -62,7 +62,7 @@ export const services2 = [
     num: "03.",
     title: "API Design & Integration",
     description:
-      "Secure, well-documented REST and GraphQL APIs, third-party integrations and data pipelines.",
+      "Secure, well-documented REST and GraphQL APIs, third-party integrations and reliable data pipelines.",
     animationOrder: "3",
     isLink: true,
     column: 1,
@@ -70,9 +70,9 @@ export const services2 = [
   {
     id: 4,
     num: "04.",
-    title: "Product & Technical Strategy",
+    title: "MVP Development",
     description:
-      "Technical audits, architecture reviews and roadmap planning to reduce risk and accelerate delivery.",
+      "Go from idea to launch-ready MVP in weeks with a lean, scalable codebase you can keep growing.",
     animationOrder: "4",
     isLink: false,
     column: 2,
@@ -80,9 +80,9 @@ export const services2 = [
   {
     id: 5,
     num: "05.",
-    title: "Performance & Reliability",
+    title: "Cloud, DevOps & Reliability",
     description:
-      "Performance tuning, observability and CI/CD workflows to keep production systems fast and reliable.",
+      "Deployment, observability and CI/CD on Neon, Supabase and modern cloud infra to keep products fast and reliable.",
     animationOrder: "5",
     isLink: false,
     column: 2,
@@ -90,9 +90,9 @@ export const services2 = [
   {
     id: 6,
     num: "06.",
-    title: "UI/UX Collaboration",
+    title: "Product & Technical Strategy",
     description:
-      "Collaborative design handoffs, prototyping and implementation to ensure design intent is respected in code.",
+      "Architecture reviews, technical audits and roadmap planning to reduce risk and accelerate delivery.",
     animationOrder: "6",
     isLink: false,
     column: 2,
@@ -108,23 +108,23 @@ export const services3 = [
   {
     id: 1,
     icon: "feather-cast",
-    title: "UI/UX",
+    title: "SaaS",
     description:
-      "Passages there are many variations variations of of Lorem available.",
+      "We design and build SaaS products that scale with your business.",
   },
   {
     id: 2,
     icon: "feather-map",
-    title: "App",
+    title: "AI",
     description:
-      "Variations There are many variations of passages of Lorem available.",
+      "We integrate AI and LLMs to make your product smarter and faster.",
   },
   {
     id: 3,
     icon: "feather-phone-call",
     title: "Support",
     description:
-      "There are many variations of passages of Lorem available pro ability.",
+      "Ongoing maintenance, iteration and support long after launch.",
   },
 ].map((elm) => {
   return {
@@ -137,54 +137,54 @@ export const services4 = [
   {
     id: 1,
     num: "01.",
-    title: "Success Architects",
+    title: "SaaS Product Development",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "We design, build and ship multi-tenant SaaS platforms with billing, auth and analytics on a modern Next.js stack.",
     animationOrder: 1,
     column: 1,
   },
   {
     id: 2,
     num: "02.",
-    title: "Success Architects",
+    title: "AI Integration",
     description:
-      "App consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "We embed AI assistants, LLM chat, RAG and intelligent automation into your product using OpenAI and Claude.",
     animationOrder: 2,
     column: 1,
   },
   {
     id: 3,
     num: "03.",
-    title: "Success Architects",
+    title: "MVP Development",
     description:
-      "I specialize in creating solutions that are not only visually engaging but also align with business goals. From [list services, e.g., branding",
+      "We turn your idea into a launch-ready MVP in weeks, with a clean, scalable codebase built to grow.",
     animationOrder: 3,
     column: 1,
   },
   {
     id: 4,
     num: "04.",
-    title: "Ui/visual Design",
+    title: "Web App Engineering",
     description:
-      "I'm proud of what I've accomplished and excited to share my journey with you. I'm proud of what I've accomplished and excited to.",
+      "We craft fast, accessible web applications with React, Next.js and TypeScript for products that scale.",
     animationOrder: 4,
     column: 2,
   },
   {
     id: 5,
     num: "05.",
-    title: "Branding Design",
+    title: "API Development & Integration",
     description:
-      "Interested in working together? Let's bring your ideas to life! Contact me, and let's start building something amazing.",
+      "We build secure REST and GraphQL APIs and integrate the third-party services your product depends on.",
     animationOrder: 5,
     column: 2,
   },
   {
     id: 6,
     num: "06.",
-    title: "Motion Design",
+    title: "Cloud & DevOps",
     description:
-      "Feel free to browse through my recent projects. Each one showcases my approach and dedication to detail, creativity, and.",
+      "We handle deployment, CI/CD and observability on Neon, Supabase and modern cloud infra for reliable releases.",
     animationOrder: 6,
     column: 2,
   },
@@ -197,87 +197,87 @@ export const services4 = [
 
 export const serviceCards = [
   {
-    title: "A Portfolio of Creativity",
+    title: "Built for SaaS Founders",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "We partner with startups and founders to design, build and scale software products that customers love.",
   },
   {
-    title: "My Portfolio of Innovation",
+    title: "AI at the Core",
     description:
-      "My work is driven by the belief that thoughtful design and strategic planning can empower brands, transform businesses",
+      "From day one we think about how AI can make your product faster, smarter and more valuable to users.",
   },
   {
-    title: "A Showcase of My Projects",
+    title: "Engineered to Scale",
     description:
-      "In this portfolio, you’ll find a curated selection of projects that highlight my skills in [Main Areas, e.g., responsive web design",
+      "Clean architecture, modern tooling and best practices so your product grows without growing pains.",
   },
 ];
 
 export const services5 = [
   {
-    title: "A Portfolio of Creativity",
+    title: "SaaS Product Studio",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "We partner with founders to design, build and ship SaaS products that are fast, secure and ready to scale.",
   },
   {
-    title: "My Portfolio of Innovation",
+    title: "AI-First Engineering",
     description:
-      "My work is driven by the belief that thoughtful design and strategic planning can empower brands, transform businesses",
+      "From AI chatbots to RAG pipelines, we weave intelligent features into your product using the latest LLMs.",
   },
   {
-    title: "A Showcase of My Projects",
+    title: "From MVP to Scale",
     description:
-      "In this portfolio, you’ll find a curated selection of projects that highlight my skills in [Main Areas, e.g., responsive web design",
+      "Launch a lean MVP in weeks, then grow it into a robust platform with our long-term engineering support.",
   },
 ];
 export const serviceCards2 = [
   {
     number: "01.",
-    title: "A Portfolio of Creativity",
+    title: "Discovery & Strategy",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "We map your product vision, scope the MVP and choose the right architecture before a line of code is written.",
   },
   {
     number: "02.",
-    title: "My Portfolio of Innovation",
+    title: "Design & Build",
     description:
-      "My work is driven by the belief that thoughtful design and strategic planning can empower brands, transform businesses",
+      "We design and develop your SaaS product with clean, scalable code and AI woven in where it adds real value.",
   },
   {
     number: "03.",
-    title: "A Showcase of My Projects",
+    title: "Launch & Scale",
     description:
-      "In this portfolio, you’ll find a curated selection of projects that highlight my skills in [Main Areas, e.g., responsive web design",
+      "We ship to production, monitor performance and keep iterating so your product grows with your users.",
   },
 ];
 
 export const serviceCards3 = [
   {
     iconClass: "fa-regular fa-code",
-    title: "Ui/Ux Design",
+    title: "SaaS Development",
     description:
-      "Each one showcases my approach and dedication to detail, creativity Each one showcases my approach and dedication to detail, creativity",
+      "Multi-tenant SaaS platforms with billing, auth and dashboards, engineered on Next.js and PostgreSQL.",
     animationOrder: 4,
   },
   {
     iconClass: "fa-light fa-palette",
-    title: "Web Development",
+    title: "AI Integration",
     description:
-      "Business consulting consul us to a provide expert advice businesses Each one showcases my approach and dedication to detail, creativity",
+      "LLM chat, RAG search and smart automation embedded into your product with OpenAI and Claude.",
     animationOrder: 5,
   },
   {
     iconClass: "fa-light fa-print",
-    title: "Business Solutions",
+    title: "Web Engineering",
     description:
-      "Each one showcases my approach and dedication to detail, creativity Each one showcases my approach and dedication to detail, creativity",
+      "Fast, accessible web apps built with React, Next.js and TypeScript for products that scale.",
     animationOrder: 4,
   },
   {
     iconClass: "fa-regular fa-handshake",
-    title: "Profit Partners",
+    title: "Long-term Support",
     description:
-      "Business consulting consul us to a provide expert advice businesses Each one showcases my approach and dedication to detail, creativity",
+      "Maintenance, monitoring and iteration so your product stays fast, secure and reliable after launch.",
     animationOrder: 5,
   },
 ];

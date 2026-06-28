@@ -6,11 +6,11 @@ export default function ExtraSkills() {
       <div className="container">
         <div className="section-head text-align-left mb--50">
           <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">My Skill</span>
+            <span className="subtitle">Why Mars Developers</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Elevated Designs Personalized <br />
-            the best Experiences
+            Engineering Built for <br />
+            Speed and Scale
           </h2>
         </div>
         <div className="services-widget v1">
@@ -20,13 +20,12 @@ export default function ExtraSkills() {
                 <i className="fa-light fa-building-columns" />
               </div>
               <div className="card-title">
-                <h3 className="main-title">Ui/visual Design</h3>
-                <p className="sub-title">21 Done</p>
+                <h3 className="main-title">SaaS Engineering</h3>
+                <p className="sub-title">End-to-end</p>
               </div>
               <p className="card-para">
-                My work is driven by the belief that thoughtful design and
-                strategic planning can empower brands strategic planning can
-                empower brands
+                We build multi-tenant SaaS products with auth, billing and
+                dashboards on a modern Next.js and PostgreSQL stack.
               </p>
               <a href="#" className="read-more-btn">
                 Read More
@@ -43,13 +42,12 @@ export default function ExtraSkills() {
                 <i className="fa-light fa-calendar" />
               </div>
               <div className="card-title">
-                <h3 className="main-title">Ui/visual Design</h3>
-                <p className="sub-title">21 Done</p>
+                <h3 className="main-title">AI Integration</h3>
+                <p className="sub-title">LLM-powered</p>
               </div>
               <p className="card-para">
-                In this portfolio, you’ll find a curated selection of projects
-                that highlight my skills in [Main Areas, e.g., responsive web
-                design
+                We embed AI assistants, RAG search and automation into your
+                product using OpenAI and Claude APIs.
               </p>
               <a href="#" className="read-more-btn">
                 Read More
@@ -66,12 +64,12 @@ export default function ExtraSkills() {
                 <i className="fa-light fa-pen-nib" />
               </div>
               <div className="card-title">
-                <h3 className="main-title">Motion Design</h3>
-                <p className="sub-title">20 Done</p>
+                <h3 className="main-title">Ship & Scale</h3>
+                <p className="sub-title">Launch-ready</p>
               </div>
               <p className="card-para">
-                Each project here showcases my commitment to excellence and
-                adaptability, tailored to meet each client’s unique needs
+                From a lean MVP to a production platform, we ship fast and keep
+                your product reliable as it grows.
               </p>
               <a href="#" className="read-more-btn">
                 Read More

@@ -15,8 +15,8 @@ export default function Blogs({
             <span className="subtitle">Blog and news</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Elevating Personal Branding the <br />
-            through Powerful Portfolios
+            Insights on Building <br />
+            and Scaling SaaS
           </h2>
         </div>
         <div className="row">

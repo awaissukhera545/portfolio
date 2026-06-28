@@ -3,9 +3,9 @@ import LayoutWrapper from "@/components/common/LayoutWrapper";
 import ClientUI from "@/components/common/ClientUI";
 
 export const metadata = {
-  title: "Personal Portfolio Software Engineer",
+  title: "Mars Developers — AI-Powered SaaS Product Studio",
   description:
-    "A passionate Software Engineer dedicated to building Web Applications and seamless mobile experiences.",
+    "Mars Developers is a software studio that designs, builds and ships AI-powered SaaS products with Next.js, helping startups go from idea to launch.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

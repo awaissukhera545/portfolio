@@ -22,7 +22,7 @@ export default function BlogDetails({ blog, isLight = false }) {
               </div>
               <div className="blog-details-discription">
                 <div className="blog-classic-tag">
-                  <h4 className="title">By Stanio lainto</h4>
+                  <h4 className="title">By Mars Developers</h4>
                   <ul>
                     <li>
                       <div className="tag-wrap">
@@ -40,61 +40,56 @@ export default function BlogDetails({ blog, isLight = false }) {
                 </div>
                 <h3 className="title split-collab">{blog.title}</h3>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet Aliquam
+                  At Mars Developers we build and ship AI-powered SaaS products
+                  every week, and we like to share what actually works. This is
+                  a practical look at how we approach the problem — no fluff,
+                  just the decisions and trade-offs that matter.
                 </p>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justoposuere
-                  lobortis non, viverra laoreet augue mattis fermentum
-                  ullamcorper viverra laore Aliquam eros justo posuere desig
-                  loborti viverra laoreet matti ullamcorper posuere viverra
+                  Whether you're a founder validating an idea or a team scaling
+                  an existing platform, the goal is the same: ship fast, keep
+                  the codebase clean and let modern tooling and AI do the heavy
+                  lifting so you can focus on your users.
                 </p>
               </div>
               <div className="quote-area-blog-details">
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet.
+                  Ship the smallest thing that delivers real value, learn from
+                  it, then iterate. Speed and clarity beat perfection every time
+                  when you're building a product people will actually use.
                 </p>
-                <h3 className="author">Mark wood</h3>
+                <h3 className="author">Awais Rafique</h3>
                 <span>
                   <i className="fa-solid fa-quote-right" />
                 </span>
               </div>
               <div className="blog-details-discription">
                 <h3 className="title split-collab">
-                  Showcase your talent with our portfolio
+                  How we put this into practice
                 </h3>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet Aliquam eros
+                  Here's how this plays out on a real engagement — from scoping
+                  the MVP to wiring up auth, billing and AI features, and getting
+                  it all running reliably in production.
                 </p>
                 <div className="our-portfolio-swiper">
                   <div className="blog-details-swiper">
                     <div className="our-portfoli-swiper-card">
                       <div className="card-left-content">
                         <p className="disc">
-                          Ished fact that a reader will be distrol acted bioii
-                          the.ished fact th reader will besi distrol ac laoreet
-                          Aliquam fact that a reader will be distrol acted
-                          Aliquam posuere loborti viverra laoreet
+                          Start with discovery: understand the user, define the
+                          core flow and pick an architecture that won't need a
+                          rewrite in six months.
                         </p>
                         <p className="disc">
-                          Aliquam eros justo, posuere loborti viverra laoreet
-                          matt design the ullamcorper posuere viverra .Aliquam
-                          eros justo posuere inni lobortis non, viverra laoreet
-                          augue mattis
+                          Then build in thin, shippable slices. Auth, data model
+                          and the primary feature first, with CI/CD and
+                          monitoring from day one so nothing is a surprise.
                         </p>
                         <p className="disc">
-                          Aliquam eros justo, posuere loborti viverra laoreet
-                          matti design an the ullamcorper posuere viverra
-                          .Aliquam eros
+                          Finally, layer in AI where it genuinely helps — search,
+                          chat or automation — and keep iterating with real user
+                          feedback.
                         </p>
                       </div>
                       <div className="card-right-content">
@@ -157,7 +152,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                     <div className="right-area-commnet">
                       <div className="top-area-comment">
                         <div className="left">
-                          <h6 className="title">Stanio lainto</h6>
+                          <h6 className="title">James Carter</h6>
                           <span>September 16, 2023</span>
                         </div>
                         <div className="social-link-inner">
@@ -173,10 +168,9 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet Aliquam fact that a reader will be distrol acted
-                        Aliquam eros justo.
+                        Really useful breakdown — the point about shipping thin
+                        slices and adding AI only where it helps matches what
+                        worked for us. Thanks for sharing the details.
                       </p>
                       <a href="#" className="reply-btn">
                         reply
@@ -211,9 +205,8 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet.
+                        Great read. Curious how you decide when a feature is
+                        worth adding AI to versus keeping it simple.
                       </p>
                       <a href="#" className="reply-btn">
                         reply
@@ -248,10 +241,9 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet Aliquam fact that a reader will be distrol acted
-                        Aliquam eros justo.
+                        Really useful breakdown — the point about shipping thin
+                        slices and adding AI only where it helps matches what
+                        worked for us. Thanks for sharing the details.
                       </p>
                       <a href="#" className="reply-btn">
                         reply

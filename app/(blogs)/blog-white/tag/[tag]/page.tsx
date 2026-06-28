@@ -16,10 +16,10 @@ export const metadata = {
 export default async function TagPage({
   params,
 }: {
-  params: { tag: string };
+  params: Promise<{ tag: string }>;
 }) {
   let tagTitle = "";
-  const { tag } = params;
+  const { tag } = await params;
   const blogs = allBlogs.filter((blog) =>
     blog.tags?.some((el) => slugify(el) == tag)
   );

@@ -21,41 +21,41 @@ export default function Hero() {
                   className="banner-big-text-1 up-down"
                   style={{ fontSize: "clamp(2.5rem, 6vw, 5.5rem)" }}
                 >
-                  Software Engineer
+                  Mars Developers
                 </h2>
                 <h2
                   className="banner-big-text-2 up-down-2"
                   style={{ fontSize: "clamp(2.5rem, 6vw, 5.5rem)" }}
                 >
-                  Software Engineer
+                  Mars Developers
                 </h2>
               </div>
             </div>
             <div className="col-lg-6 order-lg-1">
               <div className="inner">
                 <span className="sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  Hello
+                  Mars Developers
                 </span>
                 <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2 mt--5">
-                  I’m Awais Rafique a <br />
+                  I’m Awais Rafique, <br />
                   <span className="header-caption">
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
-                          "Software Engineer.",
-                          "Web Developer.",
-                          "Flutter App Developer.",
-                          "Freelancer.",
+                          "Founder & CEO.",
+                          "SaaS Product Engineer.",
+                          "AI Solutions Architect.",
+                          "Your Tech Partner.",
                         ]}
                       />
                     </span>
                   </span>
                 </h1>
                 <p className="disc tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  A passionate Software Engineer dedicated to building Web
-                  applications, robust web platforms, and seamless mobile
-                  experiences. I transform complex problems into elegant,
-                  scalable solutions.
+                  At Mars Developers we design, build and ship AI-powered SaaS
+                  products. From MVP to scale, we turn your idea into a fast,
+                  reliable platform using Next.js, modern cloud infrastructure
+                  and the latest AI.
                 </p>
                 <div className="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4">
                   <Link
@@ -63,7 +63,7 @@ export default function Hero() {
                     href={`/project`}
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">View Portfolio</span>
+                      <span className="btn-text">View Our Work</span>
                       <span className="btn-icon">
                         <i className="fa-sharp fa-regular fa-arrow-right" />
                       </span>

@@ -18,9 +18,9 @@ import Footer from "@/components/footers/Footer";
 
 export const metadata = {
   title:
-    "MARS Developers",
+    "Mars Developers — AI-Powered SaaS Product Studio",
   description:
-    "This is my personal portfolio and solely created website MARS Developers.",
+    "We design, build and ship AI-powered SaaS products. Mars Developers is your end-to-end partner for SaaS MVPs, web apps and AI integrations.",
 };
 export default function Home() {
   return (

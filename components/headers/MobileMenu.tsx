@@ -33,14 +33,14 @@ export default function MobileMenu() {
               <a href="index.html" className="logo-area">
                 <img
                   className="logo-dark"
-                  alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                  alt="Mars Developers"
                   src="/assets/images/logo/white-logo-reeni.png"
                   width={121}
                   height={41}
                 />
                 <img
                   className="logo-white"
-                  alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                  alt="Mars Developers"
                   src="/assets/images/logo/logo-white.png"
                   width={121}
                   height={40}

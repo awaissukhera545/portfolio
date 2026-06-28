@@ -8,18 +8,17 @@ import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
-  title:
-    "Blog || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+  title: "Blog || Mars Developers — SaaS & AI Product Studio",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Insights from the Mars Developers team on building and scaling AI-powered SaaS products.",
 };
 export default async function TagPage({
   params,
 }: {
-  params: { tag: string };
+  params: Promise<{ tag: string }>;
 }) {
   let tagTitle = "";
-  const { tag } = params;
+  const { tag } = await params;
   const blogs = allBlogs.filter((blog) =>
     blog.tags?.some((el) => slugify(el) == tag)
   );

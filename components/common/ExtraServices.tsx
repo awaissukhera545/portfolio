@@ -7,16 +7,16 @@ export default function ExtraServices() {
       <div className="container">
         <div className="section-head mb--50">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Latest Service</span>
+            <span className="subtitle">What We Do</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Inspiring The World One <br />
-            Project
+            Building AI-Powered <br />
+            SaaS Products
           </h2>
           <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational
+            We partner with founders and teams to design, build and scale
+            software products — from lean MVPs to full SaaS platforms with AI
+            woven in where it adds real value.
           </p>
         </div>
         <div className="row">

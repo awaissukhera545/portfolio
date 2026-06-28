@@ -1,81 +1,81 @@
 export const educationExperienceData = [
   {
-    role: "Senior Software Engineer",
-    duration: "2023 - Present",
+    role: "Mars Developers Founded",
+    duration: "2024",
     description:
-      "Leading web platform development, architecture and mentoring engineers on scalable solutions.",
+      "Started as a small studio building web apps for early-stage startups, with a focus on clean, scalable code.",
     animationOrder: 1,
   },
   {
-    role: "Software Engineer",
-    duration: "2020 - 2023",
+    role: "Going SaaS-First",
+    duration: "2025",
     description:
-      "Built customer-facing web applications and internal tools, owned feature delivery and API integration.",
+      "Shifted focus to building multi-tenant SaaS products end to end on the modern Next.js and PostgreSQL stack.",
     animationOrder: 2,
   },
   {
-    role: "Junior Developer",
-    duration: "2018 - 2020",
+    role: "AI-Powered Products",
+    duration: "2026 - Present",
     description:
-      "Worked across frontend and backend teams to ship iterative product improvements and performance fixes.",
+      "Now we integrate AI and LLMs into every product, helping clients ship smarter software faster.",
     animationOrder: 3,
   },
 ];
 
 export const educationExperience = [
   {
-    title: "Bachelor of Science in Computer Science",
-    duration: "2014 - 2018",
+    title: "Founder-Led Engineering",
+    duration: "Since 2022",
     description:
-      "Comprehensive studies in algorithms, data structures, software engineering and databases.",
+      "Every project is led hands-on by our founder and senior engineers, not handed off to juniors.",
   },
   {
-    title: "Advanced Web Development (Certification)",
-    duration: "2019",
+    title: "Modern, Proven Stack",
+    duration: "Always",
     description:
-      "Intensive practical training in modern JavaScript frameworks, testing and deployment.",
+      "Next.js, TypeScript, PostgreSQL, Prisma and AI APIs — battle-tested tools we know deeply.",
   },
 ];
 
 export const educationResumeItems = [
   {
-    duration: "2014 - 2018",
-    title: "B.Sc. Computer Science",
-    institute: "University of Lahore",
+    duration: "2022",
+    title: "Studio Launched in Lahore",
+    institute: "Mars Developers",
   },
   {
-    duration: "2019",
-    title: "Full-stack Web Development Bootcamp",
-    institute: "DevCraft Academy",
+    duration: "2023",
+    title: "First SaaS Platforms Shipped",
+    institute: "Multi-tenant products on Next.js",
   },
   {
-    duration: "2021",
-    title: "Flutter Mobile Development",
-    institute: "Online Professional Course",
+    duration: "2024",
+    title: "AI Integration Practice",
+    institute: "OpenAI & Claude powered features",
     isLast: true, // to apply the mb--0 class
   },
 ];
 
 export const resumeListItems = [
   {
-    title: "Senior Software Engineer — RemoteTech Solutions",
+    title: "SaaS Product Development — Mars Developers",
     institution: "2023 - Present",
     rating: "—",
     description:
-      "Leading feature development for a SaaS platform, improving performance and mentoring junior engineers.",
+      "Designing and shipping multi-tenant SaaS platforms with billing, auth, dashboards and AI features.",
   },
   {
-    title: "Software Engineer — Webify Labs",
-    institution: "2020 - 2023",
+    title: "AI Integration — Mars Developers",
+    institution: "2024 - Present",
     rating: "—",
     description:
-      "Built customer-facing React applications and integrated complex backend services.",
+      "Embedding LLM chat, RAG search and automation into client products using OpenAI and Claude.",
   },
   {
-    title: "Junior Developer — Local Startup",
-    institution: "2018 - 2020",
+    title: "Web & App Engineering — Mars Developers",
+    institution: "2022 - Present",
     rating: "—",
     description:
-      "Contributed to frontend and backend tasks and participated in product iterations.",
+      "Building fast, accessible web applications and APIs for startups and growing teams.",
   },
 ];

@@ -1,94 +1,94 @@
 export const skills = [
   {
-    alt: "Figma",
-    src: "/assets/images/skill/figma.png",
-    width: 40,
-    height: 60,
-    count: 92,
-    name: "Figma",
-  },
-  {
-    alt: "Framer",
-    src: "/assets/images/skill/framer.png",
-    width: 41,
-    height: 60,
-    count: 99,
-    name: "Framer",
-  },
-  {
-    alt: "Webflow",
-    src: "/assets/images/skill/webflow.png",
+    alt: "Next.js",
+    src: "/assets/images/skill/react.png",
     width: 70,
-    height: 49,
+    height: 61,
     count: 95,
-    name: "Webflow",
+    name: "Next.js",
   },
   {
     alt: "React",
     src: "/assets/images/skill/react.png",
     width: 70,
     height: 61,
-    count: 88,
+    count: 92,
     name: "React",
   },
   {
-    alt: "WordPress",
-    src: "/assets/images/skill/wordpress.png",
-    width: 60,
-    height: 60,
-    count: 85,
-    name: "WordPress",
-  },
-  {
-    alt: "Laravel/PHP",
-    src: "/assets/images/skill/laravel.png",
-    width: 60,
-    height: 61,
-    count: 94,
-    name: "Laravel/PHP",
-  },
-  {
-    alt: "Framer",
+    alt: "TypeScript",
     src: "/assets/images/skill/framer.png",
     width: 41,
     height: 60,
-    count: 99,
-    name: "Framer",
+    count: 90,
+    name: "TypeScript",
   },
   {
-    alt: "WordPress",
+    alt: "Tailwind CSS",
+    src: "/assets/images/skill/figma.png",
+    width: 40,
+    height: 60,
+    count: 95,
+    name: "Tailwind CSS",
+  },
+  {
+    alt: "PostgreSQL",
+    src: "/assets/images/skill/webflow.png",
+    width: 70,
+    height: 49,
+    count: 90,
+    name: "PostgreSQL",
+  },
+  {
+    alt: "Node.js",
+    src: "/assets/images/skill/laravel.png",
+    width: 60,
+    height: 61,
+    count: 92,
+    name: "Node.js",
+  },
+  {
+    alt: "Prisma",
+    src: "/assets/images/skill/framer.png",
+    width: 41,
+    height: 60,
+    count: 88,
+    name: "Prisma",
+  },
+  {
+    alt: "AI / LLMs",
     src: "/assets/images/skill/wordpress.png",
     width: 60,
     height: 60,
-    count: 85,
-    name: "WordPress",
+    count: 90,
+    name: "AI / LLMs",
   },
 ];
 
 export const skillSections = [
   {
-    title: "Design Skill",
+    title: "Frontend",
     skills: [
-      { name: "PHOTOSHOT", percent: 100, duration: "0.5s", delay: ".3s" },
-      { name: "FIGMA", percent: 95, duration: "0.6s", delay: ".4s" },
-      { name: "ADOBE XD", percent: 60, duration: "0.7s", delay: ".5s" },
+      { name: "NEXT.JS & REACT", percent: 95, duration: "0.5s", delay: ".3s" },
+      { name: "TYPESCRIPT", percent: 90, duration: "0.6s", delay: ".4s" },
+      { name: "TAILWIND CSS", percent: 95, duration: "0.7s", delay: ".5s" },
       {
-        name: "ADOBE ILLUSTRATOR",
-        percent: 70,
+        name: "UI / UX ENGINEERING",
+        percent: 85,
         duration: "0.8s",
         delay: ".6s",
       },
     ],
   },
   {
-    title: "Development Skill",
+    title: "Backend & AI",
     skills: [
-      { name: "PHOTOSHOT", percent: 100, duration: "0.5s", delay: ".3s" },
-      { name: "FIGMA", percent: 95, duration: "0.6s", delay: ".4s" },
-      { name: "ADOBE XD", percent: 60, duration: "0.7s", delay: ".5s" },
+      { name: "NODE.JS", percent: 92, duration: "0.5s", delay: ".3s" },
+      { name: "POSTGRESQL & PRISMA", percent: 90, duration: "0.6s", delay: ".4s" },
+      { name: "NEXTAUTH & JWT", percent: 88, duration: "0.7s", delay: ".5s" },
       {
-        name: "ADOBE ILLUSTRATOR",
-        percent: 70,
+        name: "AI / LLM INTEGRATION",
+        percent: 90,
         duration: "0.8s",
         delay: ".6s",
       },
@@ -98,9 +98,9 @@ export const skillSections = [
 
 export const skillCards = [
   {
-    title: "Framer",
+    title: "Next.js",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "We build blazing-fast, SEO-friendly SaaS frontends with the Next.js App Router and React Server Components.",
     icon: {
       src: "/assets/images/icons/icon-01.png",
       width: 22,
@@ -109,9 +109,9 @@ export const skillCards = [
     animationOrder: 1,
   },
   {
-    title: "Webflow",
+    title: "PostgreSQL",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Reliable, relational data layer with Prisma ORM on Neon or Supabase for scalable SaaS backends.",
     icon: {
       src: "/assets/images/icons/icon-02.png",
       width: 30,
@@ -120,9 +120,9 @@ export const skillCards = [
     animationOrder: 2,
   },
   {
-    title: "Figma",
+    title: "NextAuth & JWT",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Secure authentication and authorization with NextAuth, JWT sessions and role-based access control.",
     icon: {
       src: "/assets/images/icons/icon-03.png",
       width: 24,
@@ -131,9 +131,9 @@ export const skillCards = [
     animationOrder: 3,
   },
   {
-    title: "Wordpress",
+    title: "AI & LLMs",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "We integrate OpenAI and Claude to add chat, search and automation that make products smarter.",
     icon: {
       src: "/assets/images/icons/icon-04.png",
       width: 35,

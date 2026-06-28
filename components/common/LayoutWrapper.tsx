@@ -101,7 +101,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
     function initializeScrollZoomAnimationTrigger() {
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-      const animationTriggerElements = document.querySelectorAll(
+      const animationTriggerElements = document.querySelectorAll<HTMLElement>(
         `.${RBT_SCROLL_ZOOM_IN_ACTIVATION}`
       );
       if (animationTriggerElements.length === 0) return;
@@ -118,14 +118,14 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
 
         element.style.setProperty(
           "--zoom-in-ratio",
-          1 + scaleAmount * percentageSeen(element)
+          String(1 + scaleAmount * percentageSeen(element))
         );
 
         const handleScroll = throttle(() => {
           if (elementIsVisible) {
             element.style.setProperty(
               "--zoom-in-ratio",
-              1 + scaleAmount * percentageSeen(element)
+              String(1 + scaleAmount * percentageSeen(element))
             );
           }
         }, 100);

@@ -19,14 +19,14 @@ export default function Header({
                 <Link href={`/`}>
                   <Image
                     className="logo-dark"
-                    alt="MARS"
+                    alt="Mars Developers"
                     src={darkLogo}
                     width={121}
                     height={41}
                   />
                   <Image
                     className="logo-white"
-                    alt="MARS Logo"
+                    alt="Mars Developers"
                     src={lightLogo}
                     width={121}
                     height={40}

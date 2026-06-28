@@ -13,16 +13,15 @@ export default function Portfolio({ isLight = false }) {
       <div className="container">
         <div className="section-head mb--60">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Latest Portfolio</span>
+            <span className="subtitle">Our Work</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
             Transforming Ideas into <br />
-            Exceptional
+            Products That Scale
           </h2>
           <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational
+            A selection of SaaS platforms, AI integrations and web apps we have
+            designed, built and shipped for startups and growing teams.
           </p>
         </div>
         <div className="row">

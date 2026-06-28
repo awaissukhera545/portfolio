@@ -20,17 +20,14 @@ export default function ProjectDetails({ portfolioItem }) {
             <div className="project-details-content-wrap">
               <h2 className="title">{portfolioItem.title}</h2>
               <p className="docs">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                galltype and scrambled it to make a type specimen book. It has
-                survived not only five centuries tinto electronic typesetting
-                remaining essentially unchanged
+                A product we designed, built and shipped for our client —
+                engineered on a modern Next.js stack with scalability and AI
+                baked in from day one.
               </p>
               <p className="docs">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown print
+                We partnered closely with the team from discovery through launch,
+                owning architecture, development and deployment so they could
+                focus on their customers while we shipped the product.
               </p>
               <div className="check-box-wrap">
                 <ul>
@@ -39,7 +36,7 @@ export default function ProjectDetails({ portfolioItem }) {
                       <span>
                         <i className="fa-solid fa-circle-check" />
                       </span>
-                      Ui/visual Design
+                      SaaS Development
                     </h4>
                   </li>
                   <li>
@@ -47,7 +44,7 @@ export default function ProjectDetails({ portfolioItem }) {
                       <span>
                         <i className="fa-solid fa-circle-check" />
                       </span>
-                      App Development
+                      AI Integration
                     </h4>
                   </li>
                   <li>
@@ -55,21 +52,16 @@ export default function ProjectDetails({ portfolioItem }) {
                       <span>
                         <i className="fa-solid fa-circle-check" />
                       </span>
-                      Software Developer
+                      Cloud &amp; DevOps
                     </h4>
                   </li>
                 </ul>
               </div>
-              <h2 className="mini-title">
-                Elevate Your Business with IT Solutions
-              </h2>
+              <h2 className="mini-title">How we built it</h2>
               <p className="docs">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                galltype and scrambled it to make a type specimen book. It has
-                survived not only five centuries tinto electronic typesetting
-                remaining essentially unchanged
+                We started lean — scoping the core experience, then iterating in
+                short cycles. The result is a fast, reliable product with clean
+                architecture, secure auth and AI features that earn their place.
               </p>
               <div className="project-details-swiper-wrapper">
                 <div className="swiper project-details-swiper">
@@ -133,16 +125,16 @@ export default function ProjectDetails({ portfolioItem }) {
               </div>
               <div className="body">
                 <div className="project-details-info">
-                  Name: <span>Hosting vps</span>
+                  Type: <span>SaaS Platform</span>
                 </div>
                 <div className="project-details-info">
-                  Author: <span>Nadimul Islam</span>
+                  Built by: <span>Mars Developers</span>
                 </div>
                 <div className="project-details-info">
-                  Date: <span>23 January,2024</span>
+                  Year: <span>2024</span>
                 </div>
                 <div className="project-details-info">
-                  Tags: <span>Host Web Design</span>
+                  Stack: <span>Next.js, PostgreSQL, AI</span>
                 </div>
               </div>
             </div>

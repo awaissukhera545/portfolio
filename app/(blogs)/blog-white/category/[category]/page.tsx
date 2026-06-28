@@ -16,10 +16,10 @@ export const metadata = {
 export default async function CategoryPage({
   params,
 }: {
-  params: { category: string };
+  params: Promise<{ category: string }>;
 }) {
   let categoryTitle = "";
-  const { category } = params;
+  const { category } = await params;
   const blogs = allBlogs.filter((blog) =>
     blog.categories?.some((el) => slugify(el) == category)
   );

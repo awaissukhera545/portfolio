@@ -7,20 +7,19 @@ export default function Education() {
       <div className="container">
         <div className="section-head mb--50">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Education &amp; Experience</span>
+            <span className="subtitle">Our Journey</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Empowering Creativity <br />
-            through
+            From a Studio to Your <br />
+            SaaS Partner
           </h2>
           <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational
+            Since 2022, Mars Developers has grown from a small web studio into a
+            focused SaaS and AI product partner for startups and founders.
           </p>
         </div>
         <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
-          Education
+          Milestones
           <span>
             <Image
               alt="custom-line"
@@ -48,7 +47,7 @@ export default function Education() {
             <div className="col-lg-6">
               <div className="experiences-wrap-left-content">
                 <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  Experiences
+                  How We Work
                   <span>
                     <Image
                       alt="custom-line"
@@ -59,23 +58,21 @@ export default function Education() {
                   </span>
                 </h2>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">Soft Tech (2 Years)</h2>
-                  <h3 className="ex-title">UI/UX Designer</h3>
+                  <p className="ex-subtitle">step 01</p>
+                  <h2 className="ex-name">Discovery &amp; Strategy</h2>
+                  <h3 className="ex-title">Scope, architecture, plan</h3>
                   <p className="ex-para">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                    irure.
+                    We map your product vision, scope the MVP and choose the
+                    right architecture before a single line of code is written.
                   </p>
                 </div>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">ModernTech (3 Years)</h2>
-                  <h3 className="ex-title">App Developer</h3>
+                  <p className="ex-subtitle">step 02</p>
+                  <h2 className="ex-name">Design, Build &amp; Ship</h2>
+                  <h3 className="ex-title">MVP to production</h3>
                   <p className="ex-para">
-                    In this portfolio, you’ll find a curated selection of
-                    projects that highlight my skills in [Main Areas, e.g.,
-                    responsive web design.
+                    We design and develop your product with clean, scalable
+                    code, AI where it adds value, and ship it to production fast.
                   </p>
                 </div>
               </div>

@@ -59,8 +59,8 @@ export default function Contact() {
                   <i className="fa-solid fa-location-dot" />
                 </div>
                 <h3 className="title">Address</h3>
-                <p className="para">Currently Working Remotely</p>
-                <p className="para">.....</p>
+                <p className="para">Lahore, Pakistan</p>
+                <p className="para">Working Remotely</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -69,6 +69,9 @@ export default function Contact() {
                   <i className="fa-solid fa-envelope" />
                 </div>
                 <h3 className="title">E-mail</h3>
+                <a href="mailto:marsdevelopers03@gmail.com">
+                  <p className="para">marsdevelopers03@gmail.com</p>
+                </a>
                 <a href="mailto:mawaisrafiquesukhera@gmail.com">
                   <p className="para">mawaisrafiquesukhera@gmail.com</p>
                 </a>
@@ -100,10 +103,12 @@ export default function Contact() {
                       <span className="subtitle">GET IN TOUCH</span>
                     </div>
                     <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                      Elevate your brand with Me
+                      Let's build your product
                     </h2>
                     <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                      This is just a dummy text i will update later.
+                      Have a SaaS idea or an AI feature in mind? Tell us about
+                      your project and we'll get back to you with how Mars
+                      Developers can help you ship it.
                     </p>
                   </div>
                 </div>
@@ -186,7 +191,7 @@ export default function Contact() {
                               >
                                 <span className="icon-reverse-wrapper">
                                   <span className="btn-text">
-                                    Appointment Now
+                                    Send Message
                                   </span>
                                   <span className="btn-icon">
                                     <i className="fa-sharp fa-regular fa-arrow-right" />

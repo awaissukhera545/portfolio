@@ -18,7 +18,7 @@ export default function Sidebar() {
               />
               <img
                 className="logo-white"
-                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                alt="Mars Developers"
                 src="/assets/images/logo/logo-white.png"
                 width={121}
                 height={40}
@@ -45,12 +45,12 @@ export default function Sidebar() {
               </a>
             </div>
             <h5 className="title mt--30">
-              Freelancer delivering exceptional Webflow, and Next.js solutions.
+              A SaaS &amp; AI product studio delivering Next.js solutions.
             </h5>
             <p className="disc">
-              I am a skilled freelancer specializing in Webflow development,
-              Figma design, and Next.js projects. I deliver creative, dynamic,
-              and user-centric web solutions.
+              Mars Developers is a software studio specializing in AI-powered
+              SaaS products. We design, build and ship fast, scalable web apps
+              with Next.js, PostgreSQL and modern AI.
             </p>
             <div className="short-contact-area">
               {/* single contact information */}
@@ -69,8 +69,8 @@ export default function Sidebar() {
                 <i className="fa-solid fa-envelope" />
                 <div className="information tmp-link-animation">
                   <span>Mail Us</span>
-                  <a href="mailto:mawaisrafiquesukhera@gmail.com" className="number">
-                    mawaisrafiquesukhera@gmail.com
+                  <a href="mailto:marsdevelopers03@gmail.com" className="number">
+                    marsdevelopers03@gmail.com
                   </a>
                 </div>
               </div>
@@ -79,8 +79,8 @@ export default function Sidebar() {
               <div className="single-contact">
                 <i className="fa-solid fa-location-crosshairs" />
                 <div className="information tmp-link-animation">
-                  <span>My Address</span>
-                  <span className="number">Currently Working Remotely</span>
+                  <span>Our Location</span>
+                  <span className="number">Lahore, Pakistan (Remote)</span>
                 </div>
               </div>
               {/* single contact information end */}

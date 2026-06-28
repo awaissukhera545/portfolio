@@ -7,10 +7,9 @@ import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
-  title:
-    "Project Details || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+  title: "Project Details || Mars Developers — SaaS & AI Product Studio",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "A closer look at a SaaS, AI or web product built by Mars Developers.",
 };
 export default async function page({ params }) {
   const { slug } = await params;

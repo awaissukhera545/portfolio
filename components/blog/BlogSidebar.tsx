@@ -82,41 +82,41 @@ export default function BlogSidebar({ isLight = false }) {
       </div>
       <div className="signle-side-bar tmponhover">
         <div className="header">
-          <h3 className="title">About Me</h3>
+          <h3 className="title">About Us</h3>
         </div>
         <div className="body">
           <div className="about-me-details">
             <div className="about-me-details-head">
               <div className="about-me-img">
                 <Image
-                  alt="about-me-user-img"
+                  alt="Mars Developers"
                   src="/assets/images/blog/about-me-user-img.png"
                   width={600}
                   height={600}
                 />
               </div>
               <div className="about-me-right-content">
-                <h3 className="title">Fatima Afrafy</h3>
-                <p className="para">UI/UX Designer</p>
+                <h3 className="title">Mars Developers</h3>
+                <p className="para">SaaS &amp; AI Product Studio</p>
                 <div className="social-link">
-                  <a href="#">
+                  <a href="https://www.instagram.com/awaissukhera545">
                     <i className="fa-brands fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/awaissukhera545/">
                     <i className="fa-brands fa-linkedin-in" />
                   </a>
                   <a href="#">
                     <i className="fa-brands fa-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Muhammad-Awais-Rafique/100093275199461">
                     <i className="fa-brands fa-facebook-f" />
                   </a>
                 </div>
               </div>
             </div>
             <p className="about-me-para">
-              Aliquam eros justo, posuere loborti viverra ullamcorper posuere
-              viverra .Aliquam eros justo, posuere justo, posuere.
+              We design, build and ship AI-powered SaaS products for startups
+              and founders. Practical insights from our team, no fluff.
             </p>
           </div>
         </div>

@@ -10,10 +10,9 @@ import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
-  title:
-    "About || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+  title: "About Us || Mars Developers — SaaS & AI Product Studio",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Learn about Mars Developers, an AI-powered SaaS product studio building and scaling software for startups since 2022.",
 };
 export default function page() {
   return (
@@ -25,7 +24,7 @@ export default function page() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="breadcrumb-inner text-center">
-                  <h1 className="title split-collab">About Me</h1>
+                  <h1 className="title split-collab">About Us</h1>
                   <ul className="page-list">
                     <li className="tmp-breadcrumb-item">
                       <Link href={`/`}>Home</Link>
@@ -33,7 +32,7 @@ export default function page() {
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
-                    <li className="tmp-breadcrumb-item active">About Me</li>
+                    <li className="tmp-breadcrumb-item active">About Us</li>
                   </ul>
                 </div>
               </div>

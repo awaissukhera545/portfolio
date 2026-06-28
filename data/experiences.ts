@@ -1,68 +1,68 @@
 export const experienceData = [
   {
-    title: "Senior Software Engineer — RemoteTech Solutions",
+    title: "SaaS Product Development — Mars Developers",
     years: "2023 - Present",
     description:
-      "Lead end-to-end development of a customer-facing platform. Improved performance and reliability while mentoring a team of engineers.",
+      "We design and build multi-tenant SaaS platforms end to end — billing, authentication, dashboards and AI features on Next.js and PostgreSQL.",
     animationOrder: 1,
   },
   {
-    title: "Software Engineer — Webify Labs",
-    years: "2020 - 2023",
+    title: "AI Integration — Mars Developers",
+    years: "2024 - Present",
     description:
-      "Built responsive React/Next.js applications, integrated REST and GraphQL APIs, and shipped multiple product releases.",
+      "We embed LLM chat, RAG search and intelligent automation into client products using OpenAI and Claude APIs.",
     animationOrder: 2,
   },
   {
-    title: "Junior Developer — Local Startup",
-    years: "2018 - 2020",
+    title: "Web & App Engineering — Mars Developers",
+    years: "2022 - Present",
     description:
-      "Worked across frontend and backend projects, automated testing, and performance improvements for web apps.",
+      "We build fast, accessible web applications, mobile apps and APIs for startups and growing teams.",
     animationOrder: 3,
   },
 ];
 
 export const jobExperience = [
   {
-    title: "Senior Software Engineer",
+    title: "SaaS Product Development",
     duration: "2023 - Present",
     description:
-      "Leading engineering efforts and improving system performance and developer experience.",
+      "Leading end-to-end SaaS builds and improving product performance and developer experience.",
   },
   {
-    title: "Software Engineer",
-    duration: "2020 - 2023",
+    title: "AI Integration",
+    duration: "2024 - Present",
     description:
-      "Implemented customer-facing features, worked closely with product and design teams.",
+      "Adding AI assistants, search and automation to client products with modern LLMs.",
   },
   {
-    title: "Junior Developer",
-    duration: "2018 - 2020",
+    title: "Web & App Engineering",
+    duration: "2022 - Present",
     description:
-      "Supported full-stack development, bug fixes, and feature improvements.",
+      "Delivering responsive web and mobile applications with clean, scalable architecture.",
   },
 ];
 
 export const resumeItems = [
   {
+    duration: "2024 - Present",
+    title: "AI Solutions",
+    institute: "Mars Developers",
+  },
+  {
+    duration: "2023 - Present",
+    title: "SaaS Platforms",
+    institute: "Mars Developers",
+  },
+  {
     duration: "2022 - Present",
-    title: "Senior Developer",
-    institute: "CodeGenius (USA)",
+    title: "Web & API Engineering",
+    institute: "Mars Developers",
   },
   {
-    duration: "2022 - 2022",
-    title: "Web Developer",
-    institute: "Modarni Tomoli",
-  },
-  {
-    duration: "2020 - 2022",
-    title: "UI Designer",
-    institute: "Tech Design Company",
-  },
-  {
-    duration: "2016 - 2019",
-    title: "Intern UI/UX Designer",
-    institute: "USA Web Company",
+    duration: "2022",
+    title: "Studio Founded",
+    institute: "Lahore, Pakistan",
     isLast: true, // use to optionally add a custom class like mb--0
   },
 ];

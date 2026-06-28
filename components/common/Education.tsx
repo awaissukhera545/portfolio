@@ -7,7 +7,7 @@ export default function Education() {
     <section className="education-experience tmp-section-gapTop">
       <div className="container">
         <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
-          Education{" "}
+          Milestones{" "}
           <span>
             <Image
               alt="custom-line"
@@ -46,7 +46,7 @@ export default function Education() {
             <div className="col-lg-6">
               <div className="experiences-wrap-left-content">
                 <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  Experiences{" "}
+                  How We Work{" "}
                   <span>
                     <Image
                       alt="custom-line"
@@ -57,22 +57,21 @@ export default function Education() {
                   </span>
                 </h2>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">Fatima Asrafy</h2>
-                  <h3 className="ex-title">UI/UX Designer</h3>
+                  <p className="ex-subtitle">step 01</p>
+                  <h2 className="ex-name">Discovery &amp; Strategy</h2>
+                  <h3 className="ex-title">Scope, architecture, plan</h3>
                   <p className="ex-para">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                    irure
+                    We map your product vision, scope the MVP and choose the
+                    right architecture before a single line of code is written.
                   </p>
                 </div>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">Fatima Asrafy</h2>
-                  <h3 className="ex-title">UI/UX Designer</h3>
+                  <p className="ex-subtitle">step 02</p>
+                  <h2 className="ex-name">Design, Build &amp; Ship</h2>
+                  <h3 className="ex-title">MVP to production</h3>
                   <p className="ex-para">
-                    Interested in working together? Let’s bring your ideas to
-                    life! Contact me, and let’s start building something.
+                    Interested in working together? Tell us about your product
+                    and we'll help you design, build and ship it — fast.
                   </p>
                 </div>
               </div>
