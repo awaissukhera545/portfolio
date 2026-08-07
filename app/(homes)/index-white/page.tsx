@@ -15,10 +15,9 @@ import ExtraSkills from "@/components/common/ExtraSkills";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
-  title:
-    "Personal Portfolio Software Engineer",
+  title: "Mars Developers — AI-Powered SaaS Product Studio",
   description:
-    "A passionate Software Engineer dedicated to building Web applications and mobile experiences.",
+    "We design, build and ship AI-powered SaaS products. Mars Developers is your end-to-end partner for SaaS MVPs, web apps and AI integrations.",
 };
 export default function Home() {
   return (

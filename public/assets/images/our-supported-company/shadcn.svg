@@ -1,0 +1,7 @@
+<svg width="270" height="66" viewBox="0 0 270 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>shadcn/ui</title>
+  <g transform="translate(0, 11) scale(1.8333)">
+    <path fill="#9F9F9F" d="M22.219 11.784 11.784 22.219c-.407.407-.407 1.068 0 1.476.407.407 1.068.407 1.476 0L23.695 13.26c.407-.408.407-1.069 0-1.476-.408-.407-1.069-.407-1.476 0ZM20.132.305.305 20.132c-.407.407-.407 1.068 0 1.476.408.407 1.069.407 1.476 0L21.608 1.781c.407-.407.407-1.068 0-1.476-.408-.407-1.069-.407-1.476 0Z"/>
+  </g>
+  <text x="58" y="42" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#9F9F9F">shadcn/ui</text>
+</svg>

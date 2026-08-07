@@ -6,10 +6,9 @@ import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
-  title:
-    "Project || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+  title: "Projects || Mars Developers — SaaS & AI Product Studio",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Selected SaaS platforms, AI integrations and web apps built by Mars Developers.",
 };
 export default function page() {
   return (

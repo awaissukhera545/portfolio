@@ -61,6 +61,17 @@ export default function Portfolio({ isLight = false }) {
                       </Link>
                     </h3>
                     <p className="portfoli-card-para">{item.description}</p>
+                    {item.link && item.link !== "#" && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link d-inline-flex align-items-center gap-1 mt-2"
+                      >
+                        Visit Live Site
+                        <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: "0.75em" }} />
+                      </a>
+                    )}
                   </div>
                   <Link
                     href={`/project-details${isLight ? "-white" : ""}/${

@@ -19,11 +19,7 @@ export default function ProjectDetails({ portfolioItem }) {
           <div className="col-lg-8">
             <div className="project-details-content-wrap">
               <h2 className="title">{portfolioItem.title}</h2>
-              <p className="docs">
-                A product we designed, built and shipped for our client —
-                engineered on a modern Next.js stack with scalability and AI
-                baked in from day one.
-              </p>
+              <p className="docs">{portfolioItem.description}</p>
               <p className="docs">
                 We partnered closely with the team from discovery through launch,
                 owning architecture, development and deployment so they could
@@ -31,30 +27,19 @@ export default function ProjectDetails({ portfolioItem }) {
               </p>
               <div className="check-box-wrap">
                 <ul>
-                  <li>
-                    <h4 className="check-box-item">
-                      <span>
-                        <i className="fa-solid fa-circle-check" />
-                      </span>
-                      SaaS Development
-                    </h4>
-                  </li>
-                  <li>
-                    <h4 className="check-box-item">
-                      <span>
-                        <i className="fa-solid fa-circle-check" />
-                      </span>
-                      AI Integration
-                    </h4>
-                  </li>
-                  <li>
-                    <h4 className="check-box-item">
-                      <span>
-                        <i className="fa-solid fa-circle-check" />
-                      </span>
-                      Cloud &amp; DevOps
-                    </h4>
-                  </li>
+                  {(portfolioItem.tags?.length
+                    ? portfolioItem.tags
+                    : portfolioItem.categories || []
+                  ).map((item: string) => (
+                    <li key={item}>
+                      <h4 className="check-box-item">
+                        <span>
+                          <i className="fa-solid fa-circle-check" />
+                        </span>
+                        {item}
+                      </h4>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <h2 className="mini-title">How we built it</h2>
@@ -125,17 +110,27 @@ export default function ProjectDetails({ portfolioItem }) {
               </div>
               <div className="body">
                 <div className="project-details-info">
-                  Type: <span>SaaS Platform</span>
+                  Type: <span>{(portfolioItem.categories || []).join(", ") || "—"}</span>
                 </div>
                 <div className="project-details-info">
                   Built by: <span>Mars Developers</span>
                 </div>
                 <div className="project-details-info">
-                  Year: <span>2024</span>
+                  Year: <span>{portfolioItem.year || "—"}</span>
                 </div>
                 <div className="project-details-info">
-                  Stack: <span>Next.js, PostgreSQL, AI</span>
+                  Stack: <span>{(portfolioItem.tags || []).join(", ") || "—"}</span>
                 </div>
+                {portfolioItem.link && portfolioItem.link !== "#" && (
+                  <div className="project-details-info">
+                    Live Site:{" "}
+                    <span>
+                      <a href={portfolioItem.link} target="_blank" rel="noopener noreferrer">
+                        Visit Site
+                      </a>
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
           </div>

@@ -1,20 +1,48 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
+
+// 1.2s on cold load to completely mask the hydration/scroll-trigger jumps.
+// Route changes have no hydration to mask, so they get a shorter beat.
+const FIRST_LOAD_DURATION = 1200;
+const ROUTE_CHANGE_DURATION = 700;
+// Must match the CSS opacity transition below.
+const FADE_DURATION = 500;
 
 export default function Preloader() {
+  const pathname = usePathname();
   const [loading, setLoading] = useState(true);
   const [visible, setVisible] = useState(true);
+  const [renderedPath, setRenderedPath] = useState(pathname);
+  const isFirstLoad = useRef(true);
+
+  // Replay the preloader whenever the route changes. Resetting during render
+  // (rather than in an effect) means the overlay is already in place on the
+  // first commit of the new page, so its content never flashes through.
+  if (pathname !== renderedPath) {
+    setRenderedPath(pathname);
+    setLoading(true);
+    setVisible(true);
+  }
 
   useEffect(() => {
-    // Wait for the window to fully load and animations to initialize
+    const duration = isFirstLoad.current
+      ? FIRST_LOAD_DURATION
+      : ROUTE_CHANGE_DURATION;
+    isFirstLoad.current = false;
+
+    let fadeTimer: ReturnType<typeof setTimeout>;
     const timer = setTimeout(() => {
       setLoading(false);
       // Wait for the CSS fade-out transition to finish before removing from DOM
-      setTimeout(() => setVisible(false), 500); 
-    }, 1200); // 1.2s delay to completely mask the hydration/scroll-trigger jumps
+      fadeTimer = setTimeout(() => setVisible(false), FADE_DURATION);
+    }, duration);
 
-    return () => clearTimeout(timer);
-  }, []);
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(fadeTimer);
+    };
+  }, [pathname]);
 
   if (!visible) return null;
 

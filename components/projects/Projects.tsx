@@ -82,6 +82,17 @@ export default function Projects({ isLight = false }) {
                       {item.description}{" "}
                       {/* Dynamic paragraph text from data */}
                     </p>
+                    {item.link && item.link !== "#" && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link d-inline-flex align-items-center gap-1 mt-2"
+                      >
+                        Visit Live Site
+                        <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: "0.75em" }} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
